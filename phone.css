@@ -1,0 +1,186 @@
+#navbar {
+    display: flex;
+    flex-direction: column;
+}
+
+#navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#select .box img {
+    display: block;
+    margin: auto;
+    height: 130px;
+    border-top-left-radius: 34px;
+    border-top-right-radius: 34px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+
+h2,
+h5 {
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#MacBook {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 173px;
+    cursor: pointer;
+}
+
+#MacBook::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+#ipad {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 173px;
+    cursor: pointer;
+}
+
+#ipad::before {
+    content: "";
+    background-color: white;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+#iPhone {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 173px;
+    cursor: pointer;
+}
+
+#iPhone::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+#Watch {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 173px;
+    cursor: pointer;
+}
+
+#Watch::before {
+    content: "";
+    background-color: white;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+#TV {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 173px;
+    cursor: pointer;
+}
+
+#TV::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+#Music {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 173px;
+    cursor: pointer;
+}
+
+#Music::before {
+    content: "";
+    background-color: white;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 0px;
+    height: 555px;
+    justify-content: space-between;
+    /* align-items: flex-start; */
+    position: relative;
+    bottom: 0px;
+}
+
+#footer::before {
+    content: "";
+    background-color: rgb(7 2 26);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+#msg {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.but {
+    background-color: rgb(20, 56, 77);
+    color: whitesmoke;
+    margin: 4px 13px -6px 15px;
+    font-size: 0.8rem;
+    border-radius: 10px;
+    width: 114px;
+    padding: 12px 10px;
+}

@@ -1,0 +1,396 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+#logo {
+    margin: 15px 10px;
+}
+
+#logo img {
+    height: 32px;
+    margin: -14px 20px;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a {
+    color: white;
+    display: block;
+    padding: 6px 28px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: white;
+    border-radius: 15px;
+}
+
+#Apple {
+    display: flex;
+    flex-direction: column;
+    padding: -1px 300px;
+    height: 400px;
+    /* justify-content: center; */
+    align-items: center;
+    top: 0px;
+    margin-bottom: 2px;
+}
+
+#Apple::before {
+    content: "";
+    background: url('https://www.xda-developers.com/files/2020/10/apple-iphone-12-pro.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+h2,
+h5 {
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    color: black;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.h-primary {
+    font-size: 3.8rem;
+}
+
+.head {
+    font-size: 2.0rem;
+}
+
+#Apple p {
+    color: grey;
+    font-size: 1.4rem;
+}
+
+#MacBook {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 0px;
+    height: 858px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1px;
+    cursor: pointer;
+}
+
+#MacBook::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+#ipad {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 0px;
+    height: 555px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#ipad::before {
+    content: "";
+    background-color: white;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+#iPhone {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 0px;
+    height: 555px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#iPhone::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+#Watch {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 0px;
+    height: 555px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#Watch::before {
+    content: "";
+    background-color: white;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+#TV {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 0px;
+    height: 555px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#TV::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+#Music {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 0px;
+    height: 555px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#Music::before {
+    content: "";
+    background-color: white;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+#footer {
+    display: flex;
+    /* flex-direction: column; */
+    padding: 8px 0px;
+    height: 200px;
+    justify-content: space-between;
+    /* align-items: flex-start; */
+    position: relative;
+    bottom: 0px;
+}
+
+#footer::before {
+    content: "";
+    background-color: rgb(7 2 26);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+#select {
+    display: flex;
+    flex-direction: column;
+    /* margin: 35px; */
+}
+
+#select .box img {
+    display: block;
+    margin: auto;
+    height: 250px;
+    border-top-left-radius: 34px;
+    border-top-right-radius: 34px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+
+#connect ul {
+    display: flex;
+    list-style: none;
+    margin: 10px;
+}
+
+#wa a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.4rem;
+    padding: 15px;
+}
+
+#wa a:hover {
+    display: inline-block;
+    color: #075e54;
+    background-color: white;
+    transform: rotate(45deg);
+}
+
+#fb a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.4rem;
+    padding: 15px;
+}
+
+#fb a:hover {
+    display: inline-block;
+    color: #3b5998;
+    background-color: white;
+    transform: rotate(20deg);
+}
+
+#insta a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.4rem;
+    padding: 15px;
+}
+
+#insta a:hover {
+    display: inline-block;
+    color: #C13584;
+    background-color: white;
+    transform: rotate(45deg);
+}
+
+#in a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.4rem;
+    padding: 15px;
+}
+
+#in a:hover {
+    display: inline-block;
+    color: #0e76a8;
+    background-color: white;
+    transform: rotate(45deg);
+}
+
+#twitter a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.4rem;
+    padding: 15px;
+}
+
+#twitter a:hover {
+    display: inline-block;
+    color: #00acee;
+    background-color: white;
+    transform: rotate(45deg);
+}
+
+#mail a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.4rem;
+    padding: 15px;
+}
+
+#mail a:hover {
+    display: inline-block;
+    color: #4285F4;
+    background-color: white;
+    transform: rotate(45deg);
+}
+
+.button {
+    background-color: rgb(5, 5, 44);
+    color: whitesmoke;
+    margin: 12px 12px;
+    font-size: 1.8rem;
+    border-radius: 10px;
+}
+
+.copy {
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 4px;
+    color: rgb(78, 49, 6);
+}
+
+img:hover {
+    overflow: hidden;
+    transform: scale(2.0);
+}
+
+#msg {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 200px;
+}
+
+#address {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 200px;
+}
+
+.but {
+    background-color: rgb(20, 56, 77));
+    margin: 4px 13px -6px 42px;
+}
+
+span {
+    display: block;
+    margin: 4px;
+}
