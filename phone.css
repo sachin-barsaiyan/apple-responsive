@@ -154,6 +154,7 @@ h5 {
     /* align-items: flex-start; */
     position: relative;
     bottom: 0px;
+    z-index: -1;
 }
 
 #footer::before {
